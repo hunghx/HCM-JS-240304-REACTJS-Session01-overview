@@ -2,6 +2,14 @@
 import { useState } from 'react'
 import './App.css'
 import { Home } from './components/Home'
+import { HookStateComponent } from './hook/HookStateComponent'
+import { HookEffectComponent } from './hook/HookEffectComponent'
+import Navbar from './hook/baitap/Navbar'
+import HookReducer from './hook/HookReducer'
+import HookMemo from './hook/HookMemo'
+import HookCallback from './hook/HookCallback'
+import HookContext from './hook/HookContext'
+import HookRef from './hook/HookRef'
 
 function App() {
   const [name , setName] =  useState("nguyen van a")
@@ -15,7 +23,15 @@ function App() {
   // sau khi nhập xong dữ liệu ấn nút gửi thì hiển thông tin vừa nhập ở component App  
   return (
     <>
-      <Home id ={"SV001"} name={name} setName={setName} callback={callback}/>
+      {/* <Home id ={"SV001"} name={name} setName={setName} callback={callback}/> */}
+      {/* <HookStateComponent/> */}
+      {/* <HookEffectComponent/> */}
+      {/* <Navbar/> */}
+      {/* <HookReducer/> */}
+      {/* <HookMemo/> */}
+      {/* <HookCallback/> */}
+      {/* <HookContext/> */}
+      <HookRef/>
     </>
   )
 }
