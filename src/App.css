@@ -40,3 +40,43 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.box {
+  border: 1px solid black ;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.box > .form-item{
+  display:  flex;
+  justify-content: center;
+  gap: 0;
+  border: 3px solid black ;
+  border-radius: 5px;
+}
+
+.box > .form-item > input {
+  border: none;
+}
+.box button {
+  background-color: rgb(108, 108, 241);
+ color: wheat;
+ border-radius: 0;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.list > .list-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding:  5px 10px;
+}
+.through-line{
+  text-decoration: line-through;
+}

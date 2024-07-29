@@ -3,7 +3,6 @@ import React, { useRef } from 'react'
 export default function HookRef() {
     // tham chiếu tới thành phần trong DOm
     const input = useRef(null);
-
     const getInput = () => {
        console.log(input.current.value);
     }

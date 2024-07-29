@@ -10,6 +10,8 @@ import HookMemo from './hook/HookMemo'
 import HookCallback from './hook/HookCallback'
 import HookContext from './hook/HookContext'
 import HookRef from './hook/HookRef'
+import Main from './ontap/Main'
+import TodoList from './baitapp/TodoList'
 
 function App() {
   const [name , setName] =  useState("nguyen van a")
@@ -31,7 +33,8 @@ function App() {
       {/* <HookMemo/> */}
       {/* <HookCallback/> */}
       {/* <HookContext/> */}
-      <HookRef/>
+      {/* <HookRef/> */}
+     <TodoList/>
     </>
   )
 }
